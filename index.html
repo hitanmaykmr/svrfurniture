@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Furniture Store</title>
+<title>A One Furniture, Sivasagar</title>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,7 +13,7 @@
             <div class="logo"><img src="logo.png" alt="Logo"></div>
             <div class="header-content">
               <div class="title-info">
-                <h1 class="title-name">Sivasagar Furniture Store</h1>
+                <h1 class="title-name">A One Furniture Store</h1>
                 <p class="slogan">Babupatty, Sivasagar, Assam</p>
               </div>
             </div>
@@ -21,102 +21,226 @@
         </div>
       </header>
       
-      <br><br><br>
+      <br>
       
-      
-      <nav class="navbar">
-        <ul class="nav-links">
-          <li><a href="notice.html"><i class="fas fa-bullhorn"></i> Beds</a></li>
-          <li><a href="courses.html"><i class="fas fa-book"></i> Sofa Set</a></li>
-          <li><a href="courses.html"><i class="fas fa-book"></i> Living</a></li>
-          <li><a href="courses.html"><i class="fas fa-book"></i> Study Furniture</a></li>
-          <li><a href="courses.html"><i class="fas fa-book"></i> Dinning & Kitchen</a></li>
-        </ul>
-      </nav>
-      
-      
-      <section class="menu">
-        <div class="menu-content">
-        <button id="openDialogBtn"><i class="fas fa-bars fa-1x"></i>&nbsp;&nbsp;MENU</button>
-      </div>
-      </section>
-      
-      
-      <div class="dialog-container" id="dialogContainer">
-        <div class="dialog-content">
-          <span class="close-icon" id="closeDialogBtn">&times;</span>
-          <ul class="other-links">
-            <li><a href="notice.html"><i class="fas fa-bullhorn"></i> Beds</a></li>
-            <li><a href="courses.html"><i class="fas fa-book"></i> Sofa Set</a></li>
-            <li><a href="courses.html"><i class="fas fa-book"></i> Living</a></li>
-            <li><a href="courses.html"><i class="fas fa-book"></i> Study Furniture</a></li>
-            <li><a href="courses.html"><i class="fas fa-book"></i> Dinning & Kitchen</a></li>
-          </ul>
-        </div>
-      </div>
+  
 
 
-      <section class="hero">
-        <div class="hero-text">
-            <h2>Welcome to<snap> A One Furniture</snap></h2>
-            <p>Discover our collection of modern and classic furniture. Upgrade your space with our stylish options.</p>
-            <a href="#" class="btn">Wanna Order? Call Now!</a>
+
+
+
+      <div class="hero-section">
+        <div class="hero-content">
+            <h1>A One Furniture Store</h1>
+            <p>Welcome to <strong>A One Furniture Shop</strong>, where you will get  a curated selection of high-quality, affordable furniture. From modern to classic designs, we have the perfect furnitures.</p>
+            <a href="#shop" class="cta-button">Shop Now</a>
         </div>
         <div class="hero-image">
             <img src="hero.jpg" alt="Furniture">
         </div>
-    </section>
+    </div>
+    
+    
 
 
-    <section class="furn-gallery">
-      <h2 class="gallery-title">EXPLORE OUR BEDS</h2>
-      <div class="main-furn" onclick="toggleImages()">
-          <img src="bed.jpg" alt="Designer Furn">
-          <div class="cover-text">
-              <h3>BEDS</h3>
-              <p>CLICK TO EXPLORE MORE VIEWS</p>
-          </div>
-      </div>
-      <div class="more-images" id="moreImages">
+
+
+
+
+
+
+
+
+      <section class="furn-gallery">
+        <h2 class="gallery-title">Explore Beds</h2>
+        <div class="main-furn" onclick="toggleImages('bedImages')">
+        <img src="bed.jpg" alt="Designer Furn">
+        <div class="cover-text">
+        <h3>BEDS</h3>
+        <p>CLICK TO EXPLORE MORE VIEWS</p>
+        </div>
+        </div>
+        <div class="more-images" id="bedImages">
         <a class="additional-image" href="bed.jpg" target="_blank">
-          <img src="bed.jpg" alt="Chair Closeup View">
-      </a>
-          <a class="additional-image" href="bed2.jpg" target="_blank">
-              <img src="bed2.jpg" alt="Chair Side View">
-          </a>
-          <a class="additional-image" href="bed3.jpg" target="_blank">
-              <img src="bed3.jpg" alt="Chair Back View">
-          </a>
-          <a class="additional-image" href="bed4.jpg" target="_blank">
-              <img src="bed7.jpg" alt="Chair Closeup View">
-          </a>
-          <a class="additional-image" href="bed6.jpg" target="_blank">
-            <img src="bed6.jpg" alt="Chair Closeup View">
+        <img src="bed.jpg" alt="Chair Closeup View">
         </a>
-  <a class="additional-image" href="bed8.jpg" target="_blank">
-    <img src="bed8.jpg" alt="Chair Closeup View">
-</a>
-<a class="additional-image" href="bed9.jpg" target="_blank">
-  <img src="bed9.jpg" alt="Chair Closeup View">
-</a>
-<a class="additional-image" href="bed10.jpg" target="_blank">
-  <img src="bed10.jpg" alt="Chair Closeup View">
-</a>
-<a class="additional-image" href="bed11.jpg" target="_blank">
-  <img src="bed11.jpg" alt="Chair Closeup View">
-</a>
-<a class="additional-image" href="bed12.jpg" target="_blank">
-  <img src="bed12.jpg" alt="Chair Closeup View">
-</a>
-<a class="additional-image" href="bed5.jpg" target="_blank">
-  <img src="bed5.jpg" alt="Chair Closeup View">
-</a>
-<a class="additional-image" href="bed4.jpg" target="_blank">
-<img src="bed4.jpg" alt="Chair Closeup View">
-</a>
-  </a>
-      </div>
-  </section>
+        <a class="additional-image" href="bed2.jpg" target="_blank">
+        <img src="bed2.jpg" alt="Chair Side View">
+        </a>
+        <a class="additional-image" href="bed3.jpg" target="_blank">
+        <img src="bed3.jpg" alt="Chair Back View">
+        </a>
+        <a class="additional-image" href="bed4.jpg" target="_blank">
+        <img src="bed7.jpg" alt="Chair Closeup View">
+        </a>
+        <a class="additional-image" href="bed6.jpg" target="_blank">
+        <img src="bed6.jpg" alt="Chair Closeup View">
+        </a>
+        <a class="additional-image" href="bed8.jpg" target="_blank">
+        <img src="bed8.jpg" alt="Chair Closeup View">
+        </a>
+        <a class="additional-image" href="bed9.jpg" target="_blank">
+        <img src="bed9.jpg" alt="Chair Closeup View">
+        </a>
+        <a class="additional-image" href="bed10.jpg" target="_blank">
+        <img src="bed10.jpg" alt="Chair Closeup View">
+        </a>
+        <a class="additional-image" href="bed11.jpg" target="_blank">
+        <img src="bed11.jpg" alt="Chair Closeup View">
+        </a>
+        <a class="additional-image" href="bed12.jpg" target="_blank">
+        <img src="bed12.jpg" alt="Chair Closeup View">
+        </a>
+        <a class="additional-image" href="bed5.jpg" target="_blank">
+        <img src="bed5.jpg" alt="Chair Closeup View">
+        </a>
+        <a class="additional-image" href="bed4.jpg" target="_blank">
+        <img src="bed4.jpg" alt="Chair Closeup View">
+        </a>
+        </a>
+        </div>
+        </section>
+        
+        
+        
+        
+        
+        <section class="furn-gallery">
+        <h2 class="gallery-title">Explore Almirahs</h2>
+        <div class="main-furn" onclick="toggleImages('almirahImages')">
+        <img src="almirah.jpg" alt="Designer Chair">
+        <div class="cover-text">
+        <h3>ALMIRAH</h3>
+        <p>CLICK TO EXPLORE MORE VIEWS</p>
+        </div>
+        </div>
+        <div class="more-images" id="almirahImages">
+        <a class="additional-image" href="almirah.jpg" target="_blank">
+        <img src="almirah.jpg" alt="Chair Front View">
+        </a>
+        <a class="additional-image" href="almirah2.jpg" target="_blank">
+        <img src="almirah2.jpg" alt="Chair Side View">
+        </a>
+        <a class="additional-image" href="almirah3.jpg" target="_blank">
+        <img src="almirah3.jpg" alt="Chair Back View">
+        </a>
+        </div>
+        </section>
+        
+        
+        
+        <section class="furn-gallery">
+        <h2 class="gallery-title">Explore Tables</h2>
+        <div class="main-furn" onclick="toggleImages('tableImages')">
+        <img src="table.jpg" alt="Designer Chair">
+        <div class="cover-text">
+        <h3>TABLE</h3>
+        <p>CLICK TO EXPLORE MORE VIEWS</p>
+        </div>
+        </div>
+        <div class="more-images" id="tableImages">
+        <a class="additional-image" href="table.jpg" target="_blank">
+        <img src="table.jpg" alt="Chair Front View">
+        </a>
+        <a class="additional-image" href="table2.jpg" target="_blank">
+        <img src="table2.jpg" alt="Chair Side View">
+        </a>
+        <a class="additional-image" href="table3.jpg" target="_blank">
+        <img src="table3.jpg" alt="Chair Back View">
+        </a>
+        </div>
+        </section>
+        
+        
+        
+        
+        <section class="furn-gallery">
+        <h2 class="gallery-title">Explore Shelfs</h2>
+        <div class="main-furn" onclick="toggleImages('shelfImages')">
+        <img src="shelf13.jpg" alt="Designer Chair">
+        <div class="cover-text">
+        <h3>SHELFS</h3>
+        <p>CLICK TO EXPLORE MORE VIEWS</p>
+        </div>
+        </div>
+        <div class="more-images" id="shelfImages">
+        <a class="additional-image" href="shelf13.jpg" target="_blank">
+        <img src="shelf13.jpg" alt="Chair Front View">
+        </a>
+        <a class="additional-image" href="shelf2.jpg" target="_blank">
+        <img src="shelf2.jpg" alt="Chair Front View">
+        </a>
+        <a class="additional-image" href="shelf3.jpg" target="_blank">
+        <img src="shelf3.jpg" alt="Chair Front View">
+        </a>
+        <a class="additional-image" href="shelf4.jpg" target="_blank">
+        <img src="shelf4.jpg" alt="Chair Front View">
+        </a>
+        <a class="additional-image" href="shelf5.jpg" target="_blank">
+        <img src="shelf5.jpg" alt="Chair Front View">
+        </a>
+        <a class="additional-image" href="shelf6.jpg" target="_blank">
+        <img src="shelf6.jpg" alt="Chair Front View">
+        </a>
+        <a class="additional-image" href="shelf7.jpg" target="_blank">
+        <img src="shelf7.jpg" alt="Chair Front View">
+        </a>
+        <a class="additional-image" href="shelf8.jpg" target="_blank">
+        <img src="shelf8.jpg" alt="Chair Front View">
+        </a>
+        <a class="additional-image" href="shelf9.jpg" target="_blank">
+        <img src="shelf9.jpg" alt="Chair Front View">
+        </a>
+        <a class="additional-image" href="shelf10.jpg" target="_blank">
+        <img src="shelf10.jpg" alt="Chair Front View">
+        </a>
+        <a class="additional-image" href="shelf12.jpg" target="_blank">
+        <img src="shelf12.jpg" alt="Chair Front View">
+        </a>
+        </div>
+        </section>
+        
+        
+        
+        
+        
+        
+        
+        
+        <section class="furn-gallery">
+        <h2 class="gallery-title">Explore Sofa Sets</h2>
+        <div class="main-furn" onclick="toggleImages('sofaImages')">
+        <img src="sofa.jpg" alt="Designer Chair">
+        <div class="cover-text">
+        <h3>SOFA SETS</h3>
+        <p>CLICK TO EXPLORE MORE VIEWS</p>
+        </div>
+        </div>
+        <div class="more-images" id="sofaImages">
+        <a class="additional-image" href="sofa.jpg" target="_blank">
+        <img src="sofa.jpg" alt="Chair Front View">
+        </a>
+        <a class="additional-image" href="sofa2.jpg" target="_blank">
+        <img src="sofa2.jpg" alt="Chair Side View">
+        </a>
+        <a class="additional-image" href="sofa3.jpg" target="_blank">
+        <img src="sofa3.jpg" alt="Chair Back View">
+        </a>
+        <a class="additional-image" href="sofa4.jpg" target="_blank">
+        <img src="sofa4.jpg" alt="Chair Back View">
+        </a>
+        <a class="additional-image" href="sofa5.jpg" target="_blank">
+        <img src="sofa5.jpg" alt="Chair Back View">
+        </a>
+        <a class="additional-image" href="sofa6.jpg" target="_blank">
+        <img src="sofa6.jpg" alt="Chair Back View">
+        </a>
+        </div>
+        </section>
+        
+
+
+
 
 
 
